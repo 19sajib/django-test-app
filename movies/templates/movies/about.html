@@ -4,6 +4,8 @@
     <body>
         {% block content%}
         <h1> I like art film </h1>
+        {%load static %} 
+        <img style="width: 60px" src="{% static 'movies/me.jpg'%}" alt="picture of me">
         {% endblock %}
     </body>
 </html>
